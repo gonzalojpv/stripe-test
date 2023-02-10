@@ -27,7 +27,7 @@ app.use(
   })
 );
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: 'https://e0b9-2605-59c8-717c-810-f508-2ea8-f62a-79f8.ngrok.io'
 }));
 
 app.get('/', (req, res) => {
